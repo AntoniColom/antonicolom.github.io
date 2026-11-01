@@ -1,0 +1,81 @@
+/* Atlas Colom — generado desde design/tokens.json por build.py. No editar a mano. */
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --paper: #f3eee4;
+  --paper-raised: #fbf8f2;
+  --paper-sunk: #e9e2d4;
+  --ink: #1c2420;
+  --ink-muted: #575f59;
+  --rule: #d6cdbd;
+  --rule-strong: #575f59;
+  --pine: #2e5a3a;
+  --on-pine: #f3eee4;
+  --sea: #1d5b78;
+  --on-sea: #fbf8f2;
+  --preenvirons: #028090;
+  --terra: #a6492a;
+  --on-terra: #fbf8f2;
+  --ochre: #8a6a1f;
+  --olive: #5d7333;
+  --focus: #1d5b78;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #121715;
+    --paper-raised: #1a211e;
+    --paper-sunk: #0c100e;
+    --ink: #ebe5d8;
+    --ink-muted: #a3a89f;
+    --rule: #2e3632;
+    --rule-strong: #a3a89f;
+    --pine: #86b892;
+    --on-pine: #121715;
+    --sea: #72b2cf;
+    --on-sea: #121715;
+    --preenvirons: #3fb0bd;
+    --terra: #e48d66;
+    --on-terra: #121715;
+    --ochre: #d6b26a;
+    --olive: #a9bf7a;
+    --focus: #72b2cf;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #121715;
+  --paper-raised: #1a211e;
+  --paper-sunk: #0c100e;
+  --ink: #ebe5d8;
+  --ink-muted: #a3a89f;
+  --rule: #2e3632;
+  --rule-strong: #a3a89f;
+  --pine: #86b892;
+  --on-pine: #121715;
+  --sea: #72b2cf;
+  --on-sea: #121715;
+  --preenvirons: #3fb0bd;
+  --terra: #e48d66;
+  --on-terra: #121715;
+  --ochre: #d6b26a;
+  --olive: #a9bf7a;
+  --focus: #72b2cf;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-24: 96px;
+  --radius-0: 0px;
+  --radius-sm: 2px;
+  --radius-pin: 999px;
+  --measure: 68ch;
+  --sheet-max: 1120px;
+  --hairline: 1px;
+  --font-serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
