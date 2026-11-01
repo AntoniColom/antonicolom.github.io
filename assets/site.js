@@ -33,7 +33,8 @@
       p.hidden = !ok;
       if (ok) shown++;
     });
-    if (status) status.textContent = shown === pubs.length ? '' : 'Mostrando ' + shown + ' de ' + pubs.length + ' artículos';
+    if (status) status.textContent = shown === pubs.length ? '' :
+      (status.dataset.tpl || '{n} / {t}').replace('{n}', shown).replace('{t}', pubs.length);
   }
   chips.forEach(function (c) {
     c.addEventListener('click', function () {

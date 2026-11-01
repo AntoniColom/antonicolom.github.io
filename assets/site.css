@@ -87,6 +87,7 @@ a.tile:focus-visible { outline-offset: -4px; }
 .hist .h-n { font-family: var(--font-mono); font-size: 10px; fill: var(--ink-muted); text-anchor: middle; }
 .hist .h-y { font-family: var(--font-mono); font-size: 10px; fill: var(--ink-muted); text-anchor: middle; }
 .hist figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2); max-width: 640px; margin-top: var(--space-2); padding-top: var(--space-2); border-top: var(--hairline) solid var(--rule-strong); }
+.hist-note { margin: var(--space-2) 0 0; max-width: 640px; }
 .sw { display: inline-block; width: 10px; height: 10px; margin: 0 var(--space-1) 0 var(--space-3); vertical-align: -1px; }
 .sw-q1 { background: var(--pine); }
 .sw-d1 { background: var(--terra); }
@@ -129,6 +130,7 @@ a.tile:focus-visible { outline-offset: -4px; }
   .filters { top: 37px; }
 }
 @media (max-width: 560px) {
+  .ac-btn { white-space: normal; max-width: 100%; }
   main, .cartela-grid { padding: 0 var(--space-4); }
   .bar { padding: var(--space-2) var(--space-4); }
   .sheet { padding-bottom: var(--space-12); }
